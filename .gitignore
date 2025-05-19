@@ -1,0 +1,24 @@
+---
+
+## ✅ `.gitignore` for Backend (`backend/.gitignore`)
+
+```bash
+# Build output
+/target/
+*.class
+
+# IDE files
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# System files
+.DS_Store
+
+# Logs
+*.log
+
+# Environment (optional)
+/.env
+.env.*
